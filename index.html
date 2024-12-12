@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio de Léa Giron</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+    <style>
+      .p-logo {
+    margin-top: 20px; 
+    text-align: center; 
+}
+    </style>
+</head>
+<body class="page-accueil">
+
+<div class="container-fluid p-0">
+  <header class="d-flex justify-content-between align-items-center py-3 mb-4">
+    <div class="logo-container d-flex align-items-center">
+      <img src="fichiers_portfolio/logo.png" alt="Logo" height="110px" class="me-2">
+    </div>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Accueil</a></li>
+      <li class="nav-item"><a href="competences.html" class="nav-link">Compétences</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Formation</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="tp_bloc1.html">Bloc 1 Support et mise à disposition des services informatiques</a></li>
+          <li><a class="dropdown-item" href="tp_bloc2.html">Bloc 2 SLAM Conception et développement d'applications</a></li>
+          <li><a class="dropdown-item" href="tp_bloc3.html">Bloc 3 Cybersécurité</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="cv.html" class="nav-link">Mon CV</a></li>
+      <li class="nav-item"><a href="alternance.html" class="nav-link">Alternance</a></li>
+      <li class="nav-item"><a href="projets.html" class="nav-link">Projets</a></li>
+      <li class="nav-item"><a href="portefeuille.html" class="nav-link">Portefeuille</a></li>
+      <li class="nav-item"><a href="veille.html" class="nav-link">Veille</a></li>
+    </ul>
+  </header>
+</div>
+
+<section class="jumbotron-custom text-white text-center">
+  <div class="text-container2">
+    <h1 class="display-2 animated-text typing-effect" style="animation-delay: 0s;"><strong>Bienvenue sur mon portfolio</strong></h1>
+  </div>
+  <div class="text-container2">
+    <p class="lead lead-custom fs-4 animated-text typing-effect" style="animation-delay: 4s;"><strong>Découvrez ma formation, mes compétences et mes projets.</strong></p>
+  </div>  
+</section>
+
+
+<div class="accueil-content">
+  
+  <div class="text-container">
+    <h1 class="mb-4 custom-h1">A propos de moi</h1>
+
+    <ul class="about-list">
+      <li><i class="bi bi-person"></i> Léa GIRON </li>
+      <li><i class="bi bi-calendar"></i> 21 ans </li>
+      <li><i class="bi bi-shop"></i> Etudiante en BTS Services Informatiques aux Organisations au CFA Charles de Foucauld à Nancy.</li>
+      <li><i class="bi bi-code-slash"></i> Je me spécialise dans le développement avec l'option SLAM (Solutions Logicielles et Application Métier).</li>
+      <li><i class="bi bi-hospital"></i> Alternante à l'hôpital de Bar-Le-Duc dans le service informatique</li>
+      <li><i class="bi bi-laptop"></i> Je travaille au sein du service numérique, qui gère la partie applicative.</li>
+      <li><i class="bi bi-heart"></i> Passionnée par l'informatique et les nouvelles technologies.</li>
+      <li><i class="bi bi-file-earmark-code"></i> Mon portfolio est créé et codé avec HTML, CSS, Bootstrap et JavaScript.</li>
+  </ul>   
+  </div>
+
+  <div class="text-container">
+    <h2 class="mb-3 custom-h2"> Les logiciels que j'utilise</h2>
+
+    <div id="logoCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_virtualbox.png" class="d-block mx-auto" alt="VirtualBox" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">VirtualBox</p>
+            </div>
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_vmware.png" class="d-block mx-auto" alt="VM Ware" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">VM Ware</p>
+            </div>
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_packet_tracer.png" class="d-block mx-auto" alt="Packet Tracer" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">Packet Tracer</p>
+            </div>
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_visualstudio.png" class="d-block mx-auto" alt="Visual Studio" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">Visual Studio</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_github.png" class="d-block mx-auto" alt="GitHub" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">GitHub</p>
+            </div>
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_phpmyadmin.png" class="d-block mx-auto" alt="PHPMyAdmin" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">PHPMyAdmin</p>
+            </div>
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_urbackup.png" class="d-block mx-auto" alt="UR Backup" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">UR Backup</p>
+            </div>
+            <div class="col-3 text-center">
+              <img src="fichiers_portfolio/logo_duplicati.png" class="d-block mx-auto" alt="Duplicati" style="width: 100px; height: 100px;">
+              <p class="p-logo text-center">Duplicati</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+        <div class="col-3 text-center">
+          <img src="fichiers_portfolio/logo_ganttproject.webp" class="d-block mx-auto" alt="GANTT Project" style="width: 100px; height: 100px;">
+          <p class="p-logo text-center">GANTT Project</p>
+        </div>
+        <div class="col-3 text-center">
+          <img src="fichiers_portfolio/logo_looping.png" class="d-block mx-auto" alt="Looping" style="width: 100px; height: 100px;">
+          <p class="p-logo text-center">Looping</p>
+        </div>
+        <div class="col-3 text-center">
+          <img src="fichiers_portfolio/logo_xampp.svg" class="d-block mx-auto" alt="XAMPP" style="width: 100px; height: 100px;">
+          <p class="p-logo text-center">XAMPP</p>
+        </div>
+        <div class="col-3 text-center">
+          <img src="fichiers_portfolio/logo_ubuntu.svg" class="d-block mx-auto" alt="Packet Tracer" style="width: 100px; height: 100px;">
+          <p class="p-logo text-center">Ubuntu</p>
+        </div>
+
+
+      </div>
+        <!-- Ajoute d'autres "carousel-item" ici avec le même format si nécessaire -->
+      </div>
+    
+      <!-- Boutons de contrôle du carrousel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#logoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#logoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    
+
+</div>
+</div>
+
+</div>
+
+  <div class="text-container">
+    <h1 class="mb-4 custom-h1">Le BTS SIO</h1>
+    <p> Le BTS Services informatiques aux organisations est un diplôme qui s'obtient en deux ans et forme aux métiers d'administrateur réseau ou de développeur. Cette formation apporte des compétences en support de services informatiques, en cybersécurité, l'administration des réseaux et en conception d'applications.
+      Le BTS SIO propose 2 spécialités SISR et SLAM que j'ai choisi en deuxième année : </p>
+
+  <h2 class="mb-3 custom-h2"> Option SLAM</h2>
+  <p>
+    L'option solutions logicielles et applications métier forme des professionnels capables de développer des logiciels et des
+    applications informatiques personnalisées pour répondre aux besoins spécifiques des entreprises. <br>
+    Choisir cette option c'est être capable de concevoir, développer et maintenir des solutions logicielles en utilisant divers langages de programmation. <br>
+    Voici quelques débouchés de l'option SLAM : <br> 
+</p>
+    <ul class="option-list">
+    <li> Développeur d'applications informatiques</li> 
+    <li> Chargé d'études informatiques</li> 
+    <li> Responsable des services applicatifs</li>
+    <li> Programmeur analyste</li>
+    <li> Programmeur d'applications</li>
+    <li> Technicien d'études informatiques</li>
+    </ul>
+  </div>
+
+</div>
+</div>
+
+<div class="text-container">
+  <h1 class="mb-4 custom-h1">Mon parcours scolaire</h1>
+  <br>
+
+  <div class="container">
+    <div class="main-timeline">
+    
+                            <!-- start experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                                <span class="month">2 ans</span>
+                                        <span class="year">2023</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">BTS Services informatiques aux organisations</h5>
+                                    <p class="description">
+                                      CFA Charles de Foucauld - Nancy <br>
+                                      Option B solutions logicielles et applications métiers
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end experience section-->
+    
+                            <!-- start experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                                <span class="month">1 an</span>
+                                        <span class="year">2022</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">BUT Information Communication</h5>
+                                    <p class="description">
+                                      IUT Nancy Charlemagne - Nancy <br>
+                                      Option information numérique dans les organisations
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end experience section-->
+    
+                            <!-- start experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                                <span class="month">1 an</span>
+                                        <span class="year">2021</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">Licence Information Communication</h5>
+                                    <p class="description">
+                                      Université de Lorraine - Nancy
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end experience section-->
+    
+                            <!-- start experience section-->
+                            <div class="timeline">
+                                <div class="icon"></div>
+                                <div class="date-content">
+                                    <div class="date-outer">
+                                        <span class="date">
+                                                <span class="month">1 an</span>
+                                        <span class="year">2021</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-content">
+                                    <h5 class="title">Baccalauréat STMG</h5>
+                                    <p class="description">
+                                      Lycée Raymond Poincaré - Bar Le Duc <br>
+                                      Option mercatique <br>
+                                      Mention bien
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end experience section-->
+    
+                        </div>
+    </div>
+    <br>
+
+
+    <p> Après avoir obtenu mon baccalauréat, je me suis dirigée vers le domaine de l'information communication. 
+      Au bout de 2 ans dont 1 an à la fac et 1 an à l'IUT, les cours théoriques ne me plaisait pas et il n'y avait presque pas de cours pratiques.
+      De plus, les cours étaient beaucoup plus centrés sur le domaine de l'information. 
+      J'ai donc décidé de me réorienter dans un domaine qui me passionne également: l'informatique.
+     </p>
+
+
+      <h2 class="mb-3 custom-h2"> Poursuite d'études</h2>
+      <p>
+        Après l'obtention de mon BTS SIO, j'envisage de m'orienter vers un bachelor concepteur développeur d'applications en alternance.
+        Puis de continuer vers un master professionnel manager en architecture et applications logicielles des systèmes d'information également en alternance.
+      </p>
+</div>
+
+</div>
+</div>
+
+
+<footer>
+  <div class="text-center mt-5 footer-content">
+      <p> &copy; Portfolio de Léa Giron - 2024</p>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/léa-giron-866872227/" target="_blank">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:giron.lea@outlook.fr">
+            <i class="bi bi-envelope"></i>
+        </a>
+    </div>
+</footer>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
